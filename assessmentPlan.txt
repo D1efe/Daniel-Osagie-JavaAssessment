@@ -1,0 +1,29 @@
+illogical notes:
+Barren Moor
+Player, magic compass - distance from next feature
+Player can go north, south, east, west
+
+Infinite Grey Swamp - undefined characteristics atm
+barren Moor - super class?
+look can be a method?
+features - clouds, plants, water
+
+Walking simulator, linear story scenario where the player chooses where to go with events happening on each direction
+
+the directions can be used for both the player and compass
+
+Should be a condition where the player wins or loses.
+
+Logic notes:
+Classes: 
+Player > Compass
+Barren Moor > Swamp
+features - clouds, plants, water
+
+Player can move: north, south, east, west
+Compass points in directions: north, south, east, west
+features have parameters.
+
+if statements: player wins if ...
+:ea		Player loses if ...
+
