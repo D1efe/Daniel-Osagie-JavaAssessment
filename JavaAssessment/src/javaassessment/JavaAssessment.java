@@ -19,7 +19,7 @@ public class JavaAssessment {
         gs.consequence(ph.p1.getMovement());
 
         for (int i = 5; i > 0; i--) {
-            System.out.println(i + " turns remaining");
+            System.out.println(i + " turns remaining. Distance to escape: " + escapeNum + "m");
             ph.secondAction();
 
             switch (ph.p1.getMovement()) {
@@ -36,11 +36,12 @@ public class JavaAssessment {
                     escapeNum = escapeNum - c1.getWest();
                     break;
             }
-            if (escapeNum <= 0) {
-                System.out.println("you have escaped");
-            } else
-                System.out.println("you are dead. Deep");
 
+        }
+        if (escapeNum <= 0) {
+            System.out.println("you have escaped");
+        } else {
+            System.out.println("you are dead. Deep");
         }
 
     }
