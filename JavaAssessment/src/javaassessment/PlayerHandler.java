@@ -12,9 +12,9 @@ public class PlayerHandler {
 
         System.out.println(beginAdventure());
         p1 = new Player(sc.nextLine());
-        System.out.println("Your player: " + p1.getName() + " immediately checks themselves only to find a strange compass");
-        System.out.println(decision());
-        System.out.println("hint: try 'look at compass'\n");
+        System.out.println(p1.getName() + " immediately checks themselves only to find a strange compass");
+        System.out.println(p1.getName() + " then proceeds to look at his surroundings\n");
+
 
     }
 
@@ -53,7 +53,7 @@ public class PlayerHandler {
         return firstMessage + secondMessage;
     }
 
-    private String decision() {
+    public String decision() {
         return "what do you do?";
 
     }

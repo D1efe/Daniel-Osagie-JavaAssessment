@@ -50,6 +50,10 @@ public abstract class BarrenMoor {
         this.water = water;
     }
     
+    public String strangeVoice() {
+        return "Leave this place human";
+    }
+    
     
 
 }
